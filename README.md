@@ -1,5 +1,5 @@
 # Learning to Generalize towards Unseen Domains via a Content-Aware Style Invariant Framework for Disease Detection from Chest X-rays
-By Mohammad Zunaed, Md. Aynal Haque, Taufiq Hasan
+By Mohammad Zunaed, Md. Aynal Haque, Taufiq Hasan [ArXiv Paper](https://arxiv.org/abs/2106.05915)
 
 
 # Prepare Data
