@@ -1,4 +1,4 @@
-### Learning to Generalize towards Unseen Domains via a Content-Aware Style Invariant Framework for Disease Detection from Chest X-rays [[ArXiv Paper]()]
+# Learning to Generalize towards Unseen Domains via a Content-Aware Style Invariant Framework for Disease Detection from Chest X-rays [[ArXiv Paper]()]
 By Mohammad Zunaed, Md. Aynal Haque, Taufiq Hasan
 
 ![](images/proposed_framework.png)
@@ -37,20 +37,9 @@ sh train_and_generate_masks.sh
 python prepare_cv_splits.py
 ```
 
-### Citation
+# Citation
 If you use this code in your research please consider citing
 ```
-@article{luo2021category,
-  title={Category-Level Adversarial Adaptation for Semantic Segmentation using Purified Features},
-  author={Luo, Yawei and Liu, Ping and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi},
-  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence (TPAMI)},
-  year={2021},
-}
-
-@inproceedings{luo2019Taking,
-title={Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation},
-author={Luo, Yawei and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi},
-booktitle={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-year={2019}
+@article{
 }
 ```
