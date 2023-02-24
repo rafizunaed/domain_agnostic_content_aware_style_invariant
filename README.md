@@ -3,7 +3,8 @@ By Mohammad Zunaed, Md. Aynal Haque, Taufiq Hasan
 
 ![](images/proposed_framework.png)
 
-# The code is developed in the following setups.
+# Prerequisites
+The code is developed in the following setups.
 - Ubuntu 18.04.3 LTS OS
 - GeForce RTX 2080 Ti GPU (4x)
 - Intel Core-i9 7920X @ 2.90 GHz CPU
