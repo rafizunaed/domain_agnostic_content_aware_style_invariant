@@ -5,7 +5,7 @@ By Mohammad Zunaed, Md. Aynal Haque, Taufiq Hasan
 
 In this work, we present a novel domain-agnostic multi-label chest X-ray thoracic disease detection framework that can perform well on unseen test datasets. This repository contains the [PyTorch](http://pytorch.org/) implementation of our proposed method.
 
-### Prerequisites
+## Prerequisites
 - pytorch (1.11.0+)
 - albumentations (1.1.0+)
 - python (3.9.12+)
@@ -15,7 +15,7 @@ The code is developed in the following hardware and OS setting:
 - GeForce RTX 2080 Ti GPU (4x)
 - Intel Core-i9 7920X @ 2.90 GHz CPU
 
-### Prepare Data
+## Prepare Data
 - Download the full-size [Standford CheXpert](https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2), [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/2.0.0/), and [BRAX](https://physionet.org/content/brax/1.1.0/) datasets.
 - Change the dataset paths of the downloaded datasets inside the following files: `/datasets/process_brax.py`, `/datasets/process_chexpert.py`, and `/datasets/process_mimic.py`. Then, run:
 ```
@@ -49,7 +49,7 @@ sh train_and_generate_masks.sh
 python prepare_cv_splits.py
 ```
 
-# Training and Testing
+## Training and Testing
 Please update the paths and configs in the `cls_configs.py` and `cls_main.py` and run the following command to train the specific models.
 ```
 python cls_main.py
@@ -70,7 +70,7 @@ To evaluate the model on the seen domain test dataset:
 python cls_test_seen.py --run_config='proposed_md_DA_chexpert_mimic' --test_dict_path='./datasets/split_and_test_dicts/chexpert_mimic_split_info_dict.npy' --gpu_ids='0,1,2,3' --batch_size=160 --image_resize_dim=224 --n_workers=12
 ```
 
-### Citation
+## Citation
 If you use this code in your research please consider citing
 ```
 @article{
