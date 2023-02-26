@@ -21,7 +21,7 @@ The code is developed in the following hardware and OS setting:
 ```
 sh prepare_data.sh
 ```
-- Download the datasets from [here]() and place them under `/lung_segmentation_network/datasets/`  for training the lung segmentation network.
+- Download the datasets from [here](https://www.kaggle.com/datasets/mohammadzunaed/lung-segmentation-datasets) and place them under `/lung_segmentation_network/datasets/`  for training the lung segmentation network.
 ```
 ├── lung_segmentation_network/
     ├── datasets/     
