@@ -25,10 +25,8 @@ def get_args():
     parser.add_argument('--n_workers', type=int, default=12)
     parser.add_argument('--gpu_ids', type=str, default='0,1,2,3')
     parser.add_argument('--checkpoint_path', type=str, default='./weights/segmentation_checkpoint/')
-    # parser.add_argument('--test_path', type=str, default='/home/mhealthclust1/Desktop/codebase_rafi/domain_agnostic_codebase/datasets/mimic/images/')
-    # parser.add_argument('--save_dir', type=str, default='/home/mhealthclust1/Desktop/codebase_rafi/domain_agnostic_codebase/datasets/mimic/masks/')
-    parser.add_argument('--test_path', type=str, default='/home/mhealthclust1/Desktop/codebase_rafi/miccai_draft_codebase/covid_gr/P_512/')
-    parser.add_argument('--save_dir', type=str, default='/home/mhealthclust1/Desktop/codebase_rafi/miccai_draft_codebase/covid_gr/P_512_masks/')
+    parser.add_argument('--test_path', type=str, default='/home/mhealthclust1/Desktop/codebase_rafi/domain_agnostic_codebase/datasets/mimic/images/')
+    parser.add_argument('--save_dir', type=str, default='/home/mhealthclust1/Desktop/codebase_rafi/domain_agnostic_codebase/datasets/mimic/masks/')
     args = parser.parse_args()
     return args
 
