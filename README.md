@@ -4,13 +4,13 @@ By Mohammad Zunaed, Md. Aynal Haque, Taufiq Hasan
 ![](images/proposed_framework.png)
 
 # Prerequisites
-The code is developed in the following setups.
-- Ubuntu 18.04.3 LTS OS
-- GeForce RTX 2080 Ti GPU (4x)
-- Intel Core-i9 7920X @ 2.90 GHz CPU
 - pytorch (1.11.0+)
 - albumentations (1.1.0+)
 - python (3.9.12+)
+The code is developed in the following hardware and OS setups.
+- Ubuntu 18.04.3 LTS OS
+- GeForce RTX 2080 Ti GPU (4x)
+- Intel Core-i9 7920X @ 2.90 GHz CPU
 
 # Prepare Data
 - Download the full-size [Standford CheXpert](https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2), [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/2.0.0/), and [BRAX](https://physionet.org/content/brax/1.1.0/) datasets.
@@ -18,7 +18,7 @@ The code is developed in the following setups.
 ```
 sh prepare_data.sh
 ```
-- Download the datasets from [here]() and place them under /lung_segmentation_network/datasets/  for training the lung segmentation network.
+- Download the datasets from [here]() and place them under `/lung_segmentation_network/datasets/`  for training the lung segmentation network.
 ```
 ├── lung_segmentation_network/
     ├── datasets/     
@@ -28,11 +28,11 @@ sh prepare_data.sh
         ├── ranzcr_clip_gt/			
 ...
 ```
-- Modify the paths inside /lung_segmentation_network/train_and_generate_masks.sh and run the following command to train the lung segmentation network and generate the lung masks for all three CXR datasets.
+- Modify the paths inside `/lung_segmentation_network/train_and_generate_masks.sh` and run the following command to train the lung segmentation network and generate the lung masks for all three CXR datasets.
 ```
 sh train_and_generate_masks.sh
 ```
-- Download the mini-ImageNet dataset from [here]() and place them under /datasets/.
+- Download the mini-ImageNet dataset from [here]() and place them under `/datasets/`.
 ```
 ├── datasets/   
     ├── mini_imagenet_train/
