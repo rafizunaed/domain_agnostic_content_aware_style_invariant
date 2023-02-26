@@ -35,7 +35,7 @@ sh prepare_data.sh
 ```
 sh train_and_generate_masks.sh
 ```
-- Download the mini-ImageNet dataset from [here]() and place them under `/datasets/`.
+- Download the mini-ImageNet dataset from [here](https://www.kaggle.com/datasets/mohammadzunaed/mini-imagenet) and place them under `/datasets/`.
 ```
 ├── datasets/   
     ├── mini_imagenet_train/
