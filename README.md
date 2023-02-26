@@ -8,16 +8,13 @@ The code is developed in the following setups.
 - Ubuntu 18.04.3 LTS OS
 - GeForce RTX 2080 Ti GPU (4x)
 - Intel Core-i9 7920X @ 2.90 GHz CPU
-- pytorch (1.11.0)
-- albumentations (1.1.0)
-- python (3.9.12)
-- numpy (1.22.4)
-- pillow (9.1.1)
-- pandas (1.4.2)
+- pytorch (1.11.0+)
+- albumentations (1.1.0+)
+- python (3.9.12+)
 
 # Prepare Data
 - Download the full-size [Standford CheXpert](https://stanfordaimi.azurewebsites.net/datasets/8cbd9ed4-2eb9-4565-affc-111cf4f7ebe2), [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/2.0.0/), and [BRAX](https://physionet.org/content/brax/1.1.0/) datasets.
-- Change the dataset paths of the downloaded datasets inside the following files: /datasets/process_brax.py, /datasets/process_chexpert.py, and /datasets/process_mimic.py. Then, run:
+- Change the dataset paths of the downloaded datasets inside the following files: `/datasets/process_brax.py`, `/datasets/process_chexpert.py`, and `/datasets/process_mimic.py`. Then, run:
 ```
 sh prepare_data.sh
 ```
